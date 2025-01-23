@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2133E32D4203A600A2AED2 /* Contador2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133E22D4203A600A2AED2 /* Contador2App.swift */; };
+		0E2133E52D4203A600A2AED2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133E42D4203A600A2AED2 /* ContentView.swift */; };
+		0E2133E72D4203A700A2AED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2133E62D4203A700A2AED2 /* Assets.xcassets */; };
+		0E2133EA2D4203A700A2AED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2133E92D4203A700A2AED2 /* Preview Assets.xcassets */; };
+		0E2133F42D4203A800A2AED2 /* Contador2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133F32D4203A800A2AED2 /* Contador2Tests.swift */; };
+		0E2133FE2D4203A800A2AED2 /* Contador2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */; };
+		0E2134002D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2133F02D4203A800A2AED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2133D72D4203A600A2AED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2133DE2D4203A600A2AED2;
+			remoteInfo = Contador2;
+		};
+		0E2133FA2D4203A800A2AED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2133D72D4203A600A2AED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2133DE2D4203A600A2AED2;
+			remoteInfo = Contador2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2133DF2D4203A600A2AED2 /* Contador2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contador2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2133E22D4203A600A2AED2 /* Contador2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2App.swift; sourceTree = "<group>"; };
+		0E2133E42D4203A600A2AED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E2133E62D4203A700A2AED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E2133E92D4203A700A2AED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E2133EF2D4203A800A2AED2 /* Contador2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contador2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2133F32D4203A800A2AED2 /* Contador2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2Tests.swift; sourceTree = "<group>"; };
+		0E2133F92D4203A800A2AED2 /* Contador2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contador2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITests.swift; sourceTree = "<group>"; };
+		0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2133DC2D4203A600A2AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133EC2D4203A800A2AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133F62D4203A800A2AED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2133D62D4203A600A2AED2 = {
+			isa = PBXGroup;
+			children = (
+				0E2133E12D4203A600A2AED2 /* Contador2 */,
+				0E2133F22D4203A800A2AED2 /* Contador2Tests */,
+				0E2133FC2D4203A800A2AED2 /* Contador2UITests */,
+				0E2133E02D4203A600A2AED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E2133E02D4203A600A2AED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E2133DF2D4203A600A2AED2 /* Contador2.app */,
+				0E2133EF2D4203A800A2AED2 /* Contador2Tests.xctest */,
+				0E2133F92D4203A800A2AED2 /* Contador2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E2133E12D4203A600A2AED2 /* Contador2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E2133E22D4203A600A2AED2 /* Contador2App.swift */,
+				0E2133E42D4203A600A2AED2 /* ContentView.swift */,
+				0E2133E62D4203A700A2AED2 /* Assets.xcassets */,
+				0E2133E82D4203A700A2AED2 /* Preview Content */,
+			);
+			path = Contador2;
+			sourceTree = "<group>";
+		};
+		0E2133E82D4203A700A2AED2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E2133E92D4203A700A2AED2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E2133F22D4203A800A2AED2 /* Contador2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2133F32D4203A800A2AED2 /* Contador2Tests.swift */,
+			);
+			path = Contador2Tests;
+			sourceTree = "<group>";
+		};
+		0E2133FC2D4203A800A2AED2 /* Contador2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */,
+				0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */,
+			);
+			path = Contador2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E2133DE2D4203A600A2AED2 /* Contador2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2134032D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2" */;
+			buildPhases = (
+				0E2133DB2D4203A600A2AED2 /* Sources */,
+				0E2133DC2D4203A600A2AED2 /* Frameworks */,
+				0E2133DD2D4203A600A2AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contador2;
+			productName = Contador2;
+			productReference = 0E2133DF2D4203A600A2AED2 /* Contador2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E2133EE2D4203A800A2AED2 /* Contador2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2134062D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2Tests" */;
+			buildPhases = (
+				0E2133EB2D4203A800A2AED2 /* Sources */,
+				0E2133EC2D4203A800A2AED2 /* Frameworks */,
+				0E2133ED2D4203A800A2AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2133F12D4203A800A2AED2 /* PBXTargetDependency */,
+			);
+			name = Contador2Tests;
+			productName = Contador2Tests;
+			productReference = 0E2133EF2D4203A800A2AED2 /* Contador2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E2133F82D4203A800A2AED2 /* Contador2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2134092D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2UITests" */;
+			buildPhases = (
+				0E2133F52D4203A800A2AED2 /* Sources */,
+				0E2133F62D4203A800A2AED2 /* Frameworks */,
+				0E2133F72D4203A800A2AED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2133FB2D4203A800A2AED2 /* PBXTargetDependency */,
+			);
+			name = Contador2UITests;
+			productName = Contador2UITests;
+			productReference = 0E2133F92D4203A800A2AED2 /* Contador2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E2133D72D4203A600A2AED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E2133DE2D4203A600A2AED2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0E2133EE2D4203A800A2AED2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0E2133DE2D4203A600A2AED2;
+					};
+					0E2133F82D4203A800A2AED2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0E2133DE2D4203A600A2AED2;
+					};
+				};
+			};
+			buildConfigurationList = 0E2133DA2D4203A600A2AED2 /* Build configuration list for PBXProject "Contador2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E2133D62D4203A600A2AED2;
+			productRefGroup = 0E2133E02D4203A600A2AED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E2133DE2D4203A600A2AED2 /* Contador2 */,
+				0E2133EE2D4203A800A2AED2 /* Contador2Tests */,
+				0E2133F82D4203A800A2AED2 /* Contador2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E2133DD2D4203A600A2AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2133EA2D4203A700A2AED2 /* Preview Assets.xcassets in Resources */,
+				0E2133E72D4203A700A2AED2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133ED2D4203A800A2AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133F72D4203A800A2AED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E2133DB2D4203A600A2AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2133E52D4203A600A2AED2 /* ContentView.swift in Sources */,
+				0E2133E32D4203A600A2AED2 /* Contador2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133EB2D4203A800A2AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2133F42D4203A800A2AED2 /* Contador2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2133F52D4203A800A2AED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2133FE2D4203A800A2AED2 /* Contador2UITests.swift in Sources */,
+				0E2134002D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2133F12D4203A800A2AED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2133DE2D4203A600A2AED2 /* Contador2 */;
+			targetProxy = 0E2133F02D4203A800A2AED2 /* PBXContainerItemProxy */;
+		};
+		0E2133FB2D4203A800A2AED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2133DE2D4203A600A2AED2 /* Contador2 */;
+			targetProxy = 0E2133FA2D4203A800A2AED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E2134012D4203A800A2AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E2134022D4203A800A2AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E2134042D4203A800A2AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contador2/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E2134052D4203A800A2AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contador2/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E2134072D4203A800A2AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Contador2";
+			};
+			name = Debug;
+		};
+		0E2134082D4203A800A2AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Contador2";
+			};
+			name = Release;
+		};
+		0E21340A2D4203A800A2AED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contador2;
+			};
+			name = Debug;
+		};
+		0E21340B2D4203A800A2AED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W498U9PZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ICC.Contador2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contador2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E2133DA2D4203A600A2AED2 /* Build configuration list for PBXProject "Contador2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2134012D4203A800A2AED2 /* Debug */,
+				0E2134022D4203A800A2AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2134032D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2134042D4203A800A2AED2 /* Debug */,
+				0E2134052D4203A800A2AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2134062D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2134072D4203A800A2AED2 /* Debug */,
+				0E2134082D4203A800A2AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2134092D4203A800A2AED2 /* Build configuration list for PBXNativeTarget "Contador2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E21340A2D4203A800A2AED2 /* Debug */,
+				0E21340B2D4203A800A2AED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E2133D72D4203A600A2AED2 /* Project object */;
+}
