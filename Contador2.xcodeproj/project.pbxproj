@@ -15,6 +15,7 @@
 		0E2133FE2D4203A800A2AED2 /* Contador2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */; };
 		0E2134002D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */; };
 		0E21340D2D42073700A2AED2 /* archivo 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21340C2D42073700A2AED2 /* archivo 2.swift */; };
+		0E21340F2D42080300A2AED2 /* 32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21340E2D42080300A2AED2 /* 32.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITests.swift; sourceTree = "<group>"; };
 		0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0E21340C2D42073700A2AED2 /* archivo 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "archivo 2.swift"; sourceTree = "<group>"; };
+		0E21340E2D42080300A2AED2 /* 32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 32.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				0E2133E62D4203A700A2AED2 /* Assets.xcassets */,
 				0E2133E82D4203A700A2AED2 /* Preview Content */,
 				0E21340C2D42073700A2AED2 /* archivo 2.swift */,
+				0E21340E2D42080300A2AED2 /* 32.swift */,
 			);
 			path = Contador2;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E21340F2D42080300A2AED2 /* 32.swift in Sources */,
 				0E2133E52D4203A600A2AED2 /* ContadorView.swift in Sources */,
 				0E2133E32D4203A600A2AED2 /* Contador2App.swift in Sources */,
 				0E21340D2D42073700A2AED2 /* archivo 2.swift in Sources */,
