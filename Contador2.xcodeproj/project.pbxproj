@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0E2133E32D4203A600A2AED2 /* Contador2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133E22D4203A600A2AED2 /* Contador2App.swift */; };
-		0E2133E52D4203A600A2AED2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133E42D4203A600A2AED2 /* ContentView.swift */; };
+		0E2133E52D4203A600A2AED2 /* ContadorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133E42D4203A600A2AED2 /* ContadorView.swift */; };
 		0E2133E72D4203A700A2AED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2133E62D4203A700A2AED2 /* Assets.xcassets */; };
 		0E2133EA2D4203A700A2AED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2133E92D4203A700A2AED2 /* Preview Assets.xcassets */; };
 		0E2133F42D4203A800A2AED2 /* Contador2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133F32D4203A800A2AED2 /* Contador2Tests.swift */; };
 		0E2133FE2D4203A800A2AED2 /* Contador2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */; };
 		0E2134002D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */; };
+		0E21340D2D42073700A2AED2 /* archivo 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21340C2D42073700A2AED2 /* archivo 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0E2133DF2D4203A600A2AED2 /* Contador2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contador2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2133E22D4203A600A2AED2 /* Contador2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2App.swift; sourceTree = "<group>"; };
-		0E2133E42D4203A600A2AED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E2133E42D4203A600A2AED2 /* ContadorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorView.swift; sourceTree = "<group>"; };
 		0E2133E62D4203A700A2AED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2133E92D4203A700A2AED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E2133EF2D4203A800A2AED2 /* Contador2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contador2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		0E2133F92D4203A800A2AED2 /* Contador2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contador2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2133FD2D4203A800A2AED2 /* Contador2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITests.swift; sourceTree = "<group>"; };
 		0E2133FF2D4203A800A2AED2 /* Contador2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E21340C2D42073700A2AED2 /* archivo 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "archivo 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				0E2133E22D4203A600A2AED2 /* Contador2App.swift */,
-				0E2133E42D4203A600A2AED2 /* ContentView.swift */,
+				0E2133E42D4203A600A2AED2 /* ContadorView.swift */,
 				0E2133E62D4203A700A2AED2 /* Assets.xcassets */,
 				0E2133E82D4203A700A2AED2 /* Preview Content */,
+				0E21340C2D42073700A2AED2 /* archivo 2.swift */,
 			);
 			path = Contador2;
 			sourceTree = "<group>";
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2133E52D4203A600A2AED2 /* ContentView.swift in Sources */,
+				0E2133E52D4203A600A2AED2 /* ContadorView.swift in Sources */,
 				0E2133E32D4203A600A2AED2 /* Contador2App.swift in Sources */,
+				0E21340D2D42073700A2AED2 /* archivo 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
